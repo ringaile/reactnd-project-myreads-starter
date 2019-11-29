@@ -26,6 +26,7 @@ class Search extends React.Component {
       }).catch(() => (
         console.log(`Error in search Books`)
       ))
+      this.setState({ books: [] })
     }
   }
 
